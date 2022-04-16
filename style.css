@@ -1,0 +1,455 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main-background  {
+    margin: 0 auto;
+    background: black;
+    width:100%;
+    height:100vh;
+   
+
+   
+}
+.home-pic {
+
+    margin:0 auto;
+    margin-top:180px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:70%;
+    align-items: center;
+   
+}
+
+.main-title {
+    
+    color: white;
+    width: 100%;
+    font-family: 'Creepster';
+    text-shadow: 0px 0px 10px #08BC1C;
+    color:#08BC1C;
+    text-align: center;
+    font-size: 72px;
+    
+}
+.main-panda {
+    margin-top:40px;
+    width: 30%;
+    border:3px solid #08BC1C;
+    box-shadow: 0px 0px 50px #08BC1C;
+    border-radius: 5px;
+
+   
+}
+
+
+header {
+   
+   background-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+nav ul {
+    
+    font-family: 'Creepster';
+    padding-top:20px;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+   
+}
+
+nav ul li {
+    border:2px solid #08BC1C;
+    border-radius: 5px;
+    padding:20px;
+    padding: 20px 40px;
+    box-shadow: 0px 0px 20px #08BC1C;
+    
+}
+
+a:link, a:visited, a:active {
+    color:#08BC1C;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+.description {
+   color:white;
+    margin: 0 auto;
+    width:70%;
+}
+.description-p{
+    text-align: justify;
+    border: 2px solid #08BC1C;
+    padding:20px;
+    border-radius:5px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+/* ROAD MAP CODE STARTS */
+
+
+
+.roadmap-container{
+
+    margin: 0 auto;
+     margin-top:100px;
+     width: 70%;
+     color:white;
+    margin-bottom:150px;
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     
+     
+    
+ }
+ .roadmap-text {
+     width: 70%;
+     
+ }
+ 
+ .roadmap-panda {
+     width:30%;
+     border:2px solid #08BC1C;
+     height:50%;
+     border-radius: 5px;
+    box-shadow: 0px 0px 20px #08BC1C;
+ }
+
+ .roadmap-title {
+     color:#08BC1C;
+     font-family: 'Creepster';
+     text-align: center;
+     font-size: 48px;
+     text-shadow: 0px 0px 20px #08BC1C;
+     margin-top:40px;
+ }
+
+ .roadmap-phase-title{
+     color: #FF5666;
+     font-family: 'Montserrat', sans-serif;
+     text-shadow: 0px 0px 20px #FF5666;
+     font-weight: bold;
+ }
+
+
+ .roadmap-phase ul li {
+     list-style: none;
+     font-family: 'Montserrat', sans-serif;
+     color:white;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-weight: bold;
+
+ }
+
+
+
+
+/* TEAM CODE BELOW */
+
+.team {
+
+   margin: 0 auto;
+    margin-top:100px;
+    width:70%;
+    color:white;
+ 
+    margin-bottom:150px;
+   
+}
+.team h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:50px;
+    font-family: 'Creepster';
+    color: #08BC1C;
+    font-size: 48px;
+    text-shadow: 0px 0px 20px #08BC1C;
+}
+
+.team-column {
+ 
+    color:#FF5666;
+    width:32%;
+}
+
+.team-column img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom:10px;
+    text-align: center;
+ }
+.team-flex{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.founder { 
+    font-family: 'Creepster';
+    color:#08BC1C;
+    font-size: 32px;
+    margin-top:10px;
+    margin-bottom: 10px;
+  
+
+}
+
+.founder-title{
+    font-size: 28px;
+   
+}
+
+.description-role {
+    color:white;
+    font-size: 23px;
+   
+}
+
+/* FQ CODE STARTS BELOW */
+
+.faq-container {
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+  
+    margin-bottom:150px;
+}
+
+.faq-title {
+    text-align: center;
+    font-family: 'Creepster';
+    color: #08BC1C;
+    font-size: 48px;
+    text-shadow: 0px 0px 20px #08BC1C;
+}
+
+.faq-container ul li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 50px;
+    color:white;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.links {
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+
+    font-family: 'Creepster';
+    color:white;
+    font-size: 32px;
+    margin-bottom:100px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links .discord {
+    text-decoration: underline;
+    color:#5865F2;
+}
+
+.links .discord i {
+    margin-left: 10px;
+}
+
+.links .twitter {
+    color:#00acee;
+    text-decoration: underline;
+}
+
+.links .twitter i {
+    margin-left: 10px;
+}
+
+
+.faq-container ul li span {
+    color:#FF5666;
+}
+
+@media (max-width:500px){
+
+    .team {
+width: 100%;
+margin: 0 auto;
+
+    }
+
+    .team-flex{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+       
+       text-align: center;
+        font-family: 'Montserrat', sans-serif;
+     
+    
+    }
+
+    .team-column {
+        margin: 0 auto;
+        color:#FF5666;
+        width:95%;
+        margin-bottom:20px;
+    }
+    
+    .team-column img {
+       
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom:10px;
+        
+        
+     }
+    
+    .founder { 
+        font-family: 'Creepster';
+        color:#08BC1C;
+        font-size: 32px;
+        margin-top:10px;
+        margin-bottom: 10px;
+      
+    
+    }
+    
+    .description-role {
+        width:100%;
+        color:white;
+        text-align: justify;
+        
+       
+    }
+
+.roadmap-container{
+
+    margin: 0 auto;
+     margin-top:100px;
+     width:90%;
+     color:white;
+    
+     margin-bottom:150px;
+     
+    
+ }
+ .description {
+    color:white;
+     margin: 0 auto;
+     width:90%;
+ }
+
+ .faq-container {
+    margin: 0 auto;
+    width: 90%;
+    color: white;
+  
+    margin-bottom: 300px;
+}
+nav ul li {
+    border:2px solid #08BC1C;
+    border-radius: 5px;
+    padding:15px;
+  
+    box-shadow: 0px 0px 20px #08BC1C;
+    
+}
+
+.faq-container {
+    margin: 0 auto;
+    width: 90%;
+    color: white;
+  
+    margin-bottom:50px;
+}
+.links {
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+text-align: center;
+    font-family: 'Creepster';
+    color:white;
+    font-size: 32px;
+    margin-bottom:100px;
+}
+.discord {
+    margin-bottom:20px;
+}
+
+/*MAIN TITLE STARTS BELOW */
+.home-pic {
+
+    margin:0 auto;
+    margin-top:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:90%;
+    align-items: center;
+   
+}
+
+.main-title {
+    
+    color: white;
+    width: 100%;
+    font-family: 'Creepster';
+    text-shadow: 0px 0px 10px #08BC1C;
+    color:#08BC1C;
+    text-align: center;
+    font-size: 48px;
+    
+}
+.main-panda {
+    margin-top:30px;
+    width: 70%;
+    border:3px solid #08BC1C;
+    box-shadow: 0px 0px 50px #08BC1C;
+    border-radius: 5px;
+
+   
+}
+
+}
