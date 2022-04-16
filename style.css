@@ -422,7 +422,7 @@ text-align: center;
 .home-pic {
 
     margin:0 auto;
-    margin-top:200px;
+    margin-top:180px;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
