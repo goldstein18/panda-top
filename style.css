@@ -132,16 +132,16 @@ a:hover{
     
  }
  .roadmap-text {
-     width: 70%;
+     width: 50%;
      
  }
  
  .roadmap-panda {
-     width:30%;
-     border:2px solid #08BC1C;
+     width:50%;
+     
      height:50%;
      border-radius: 5px;
-    box-shadow: 0px 0px 20px #08BC1C;
+   
  }
 
  .roadmap-title {
@@ -458,6 +458,13 @@ text-align: center;
     border-radius: 5px;
 
    
+}
+.roadmap-text {
+    width: 90%;
+    
+}
+.roadmap-panda {
+  width:10%;
 }
 
 }
